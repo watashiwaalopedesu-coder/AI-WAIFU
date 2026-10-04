@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#101b25">
+    <meta name="description" content="AI-WAIFU: a small, customizable AI character chat starter.">
+    <title>AI-WAIFU · Character chat</title>
+    <link rel="stylesheet" href="/styles.css">
+    <script type="module" src="/app.js"></script>
+  </head>
+  <body>
+    <main class="layout">
+      <aside class="profile" aria-label="Character profile">
+        <p class="eyebrow">AI-WAIFU / STARTER</p>
+        <div class="avatar" id="avatar" aria-hidden="true">✦</div>
+        <h1 id="character-name">Character chat</h1>
+        <p id="character-description">Loading your companion…</p>
+        <span class="mode" id="mode">Connecting</span>
+        <p class="privacy" id="privacy">Conversations stay in this tab until you refresh or start a new chat.</p>
+        <button id="reset" class="secondary" type="button" disabled>New conversation</button>
+      </aside>
+      <section class="chat" aria-label="Conversation">
+        <header><p class="eyebrow">A LITTLE SPACE TO TALK</p><h2>What’s on your mind?</h2></header>
+        <div id="messages" class="messages" role="log" aria-label="Chat messages" aria-live="polite" aria-relevant="additions text"></div>
+        <form id="chat-form">
+          <label for="message">Your message</label>
+          <div class="composer">
+            <textarea id="message" rows="2" maxlength="2000" placeholder="Say hello…" required disabled></textarea>
+            <button id="send" type="submit" disabled>Send ↗</button>
+          </div>
+          <div class="form-footer"><span>Enter to send · Shift + Enter for a new line</span><span id="status" role="status"></span></div>
+        </form>
+      </section>
+    </main>
+    <noscript>This chat needs JavaScript. Enable it and refresh the page.</noscript>
+  </body>
+</html>

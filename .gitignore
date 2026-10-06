@@ -1,8 +1,10 @@
 node_modules/
-.env
-.env.*
+.next/
+out/
+.env*
 !.env.example
-coverage/
+*.tsbuildinfo
 *.log
+coverage/
+test-results/
 .DS_Store
-Thumbs.db

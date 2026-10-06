@@ -1,0 +1,1 @@
+The shipping neutral image is frame 0 of `../expressions/sheet.png`, with coordinates in `../metadata/manifest.json`. Add replacement base artwork here. The current bitmap is preserved as generated; it is not a layered Live2D source file.

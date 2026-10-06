@@ -1,0 +1,13 @@
+Use case: stylized-concept
+Asset type: One transparent PNG expression atlas for an AI companion interface.
+Create an original adult anime woman named Mio, age 27. Show six face-and-shoulders portraits of this same woman on one square 1536 by 1536 pixel sheet if supported, in an exactly uniform 3-column by 2-row grid. Every portrait is centered within its own equal 512 by 768 pixel cell, with ample empty transparent padding on every side. Make the portraits identical in head position, scale, angle, hairstyle, clothing, and pose; change only the facial expression.
+Character: short charcoal-dark bob gathered into a tiny low ponytail, two small pale-teal hairpins, warm amber-brown eyes, timid and friendly office-worker mood. A modest dark business jacket worn normally on both shoulders over a loose opaque high-collared white shirt, fully buttoned to the neck, with a neat charcoal necktie. Framing is strictly face and shoulders, ending at the upper jacket lapels.
+Style: clean polished 2D anime illustration, crisp precise dark linework, simple flat cel shading, expressive face, warm approachable energy.
+Expression order, left to right across the top row then left to right across the bottom row:
+1. Neutral: attentive eyes and a small closed mouth.
+2. Talking: same attentive eyes and a small naturally open speaking mouth.
+3. Happy: soft, warm closed-mouth smile.
+4. Shy: softly flushed cheeks and a bashful closed-mouth expression.
+5. Blink: both eyes fully closed, mouth closed.
+6. Surprised: widened eyes and a small surprised open mouth.
+Background: actual transparency with alpha outside each portrait. No checkerboard art, background color, text, labels, borders, dividers, scenery, symbols, or extra people. All hair and shoulder contours must remain fully inside each cell. Keep wide transparent gutters between portraits, no touching or overlapping. One sheet, six portraits, a uniform 3x2 grid.

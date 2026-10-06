@@ -1,0 +1,1 @@
+Current mouth movement switches between closed and one open-mouth portrait. Isolated closed/A/I/U/E/O/smile shapes are future production assets. See `prompts/avatar-assets.md` for prompts and alignment requirements.

@@ -1,14 +1,37 @@
 {
   "name": "ai-waifu",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "private": true,
-  "description": "A minimal AI character chat app with an offline demo and optional OpenRouter support.",
   "type": "module",
-  "engines": { "node": ">=24" },
+  "description": "A personal character companion with streaming chat, realtime voice and screen vision.",
+  "engines": {
+    "node": ">=24"
+  },
   "scripts": {
-    "start": "node --env-file-if-exists=.env src/server.js",
-    "dev": "node --watch --env-file-if-exists=.env src/server.js",
-    "test": "node --test",
-    "check": "node --check src/server.js && node --check src/chat.js && node --check src/character.js && node --check public/app.js"
+    "dev": "next dev --hostname 127.0.0.1",
+    "start": "next start --hostname 127.0.0.1",
+    "build": "next build",
+    "lint": "eslint .",
+    "typecheck": "tsc --noEmit",
+    "check": "npm run lint && npm run typecheck",
+    "test": "node --import tsx --test test/*.test.ts"
+  },
+  "dependencies": {
+    "next": "^16.3.8",
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0",
+    "lucide-react": "^1.52.0",
+    "zod": "^4.6.5"
+  },
+  "devDependencies": {
+    "typescript": "^6.0.3",
+    "@types/node": "^26.6.4",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "eslint": "^9.39.5",
+    "eslint-config-next": "^16.3.8",
+    "tailwindcss": "^4.3.3",
+    "@tailwindcss/postcss": "^4.3.3",
+    "tsx": "^4.23.15"
   }
 }

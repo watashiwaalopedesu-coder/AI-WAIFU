@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "character": "Mio",
+  "image": "/avatars/kobeni-inspired/expressions/sheet.png",
+  "width": 1254,
+  "height": 1254,
+  "frameWidth": 418,
+  "frameHeight": 627,
+  "frames": [
+    {
+      "name": "neutral",
+      "x": 0,
+      "y": 0
+    },
+    {
+      "name": "talking",
+      "x": 418,
+      "y": 0
+    },
+    {
+      "name": "happy",
+      "x": 836,
+      "y": 0
+    },
+    {
+      "name": "shy",
+      "x": 0,
+      "y": 604
+    },
+    {
+      "name": "blink",
+      "x": 418,
+      "y": 604
+    },
+    {
+      "name": "surprised",
+      "x": 836,
+      "y": 604
+    }
+  ]
+}
